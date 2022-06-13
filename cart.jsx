@@ -5,7 +5,7 @@ const products = [
   { name: "Beans__:", country: "USA", cost: 2, instock: 5 },
   { name: "Cabbage:", country: "USA", cost: 1, instock: 8 },
 ];
-//=========Cart============= // why is this here, it is never used!!!
+//=========Cart============= // 
 const Cart = (props) => {
   const { Card, Accordion, Button } = ReactBootstrap;
   console.log("rendering Card component says Marla")
